@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      database: shop_db
+      uri: {URI}
