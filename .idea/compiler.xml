@@ -10,5 +10,13 @@
         <module name="shop-order-service.main" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="product-service" target="17" />
+      <module name="product-service.main" target="17" />
+      <module name="product-service.test" target="17" />
+      <module name="shop-product-service" target="17" />
+      <module name="shop-product-service.main" target="17" />
+      <module name="shop-product-service.test" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
