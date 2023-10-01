@@ -8,5 +8,5 @@ import java.util.List;
 
 @Repository
 public interface InventoryRepository extends MongoRepository<Inventory, String> {
-    Inventory findBySkuCode(String skuCode);
+    List<Inventory> findBySkuCodeIn(List<String> skuCode);
 }
