@@ -1,6 +1,6 @@
 package com.shop.inventoryservice.service;
 
-import com.shop.inventoryservice.dto.InventoryResponse;
+import com.shop.inventoryservice.controller.dto.InventoryResponse;
 import com.shop.inventoryservice.model.Inventory;
 import com.shop.inventoryservice.repository.InventoryRepository;
 import lombok.extern.slf4j.Slf4j;

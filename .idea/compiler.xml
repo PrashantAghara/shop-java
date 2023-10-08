@@ -11,6 +11,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="discovery-server" target="17" />
+      <module name="discovery-server.main" target="17" />
+      <module name="discovery-server.test" target="17" />
       <module name="product-service" target="17" />
       <module name="product-service.main" target="17" />
       <module name="product-service.test" target="17" />

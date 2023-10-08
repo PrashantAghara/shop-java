@@ -1,6 +1,6 @@
 package com.shop.inventoryservice.controller;
 
-import com.shop.inventoryservice.dto.InventoryResponse;
+import com.shop.inventoryservice.controller.dto.InventoryResponse;
 import com.shop.inventoryservice.service.InventoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

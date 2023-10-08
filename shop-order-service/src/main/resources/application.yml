@@ -1,5 +1,13 @@
 spring:
+  application:
+    name: shop-order-service
   data:
     mongodb:
       database: shop_db
       uri: ${URI}
+server:
+  port: 8081
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka

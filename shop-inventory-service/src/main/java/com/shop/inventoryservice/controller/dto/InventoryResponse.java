@@ -1,4 +1,4 @@
-package com.shop.inventoryservice.dto;
+package com.shop.inventoryservice.controller.dto;
 
 import lombok.*;
 
